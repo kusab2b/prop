@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: rob;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: open;
+    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.container{
+    width: 100%;
+    height: 847px;
+    display: flex;
+    justify-content: center;
+    background-color: hsla(210, 25%, 16%, 0.05);
+}
+
+
+.header{
+    width: 1320px;
+    height: 113px;
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.coll{
+    margin-left: 170px;
+}
+
+.btns{
+    display: flex;
+    align-items: baseline;
+    column-gap: 22px;
+    
+}
+
+.pic1{
+    width: 25px;
+    height: 25px;
+}
+.btn{
+    display: flex;
+    column-gap: 8px;
+    
+    
+}
+.btn1{
+    font-size: 18px;
+    font-family: rob;
+    cursor: pointer;
+    border: none;
+}
+
+.menu{
+    font-size: 16px;
+    font-family: open;
+    margin-top: 30px;
+    border-top: 1px solid hsla(0, 0%, 89%, 1) ;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul{
+list-style-type: none;
+padding: 0;
+}
+
+.product{
+    width: 1226px;
+    height: 562px;
+    margin-top: 81px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.content{
+    width: 686px;
+    height: 364px;
+    margin-top: 80px;
+    
+    
+}
+.cont{
+    font-size: 74px;
+    font-family: rob;
+    margin: 0;
+}
+
+.parragraf{
+    font-size: 30px;
+    font-family: rob;
+    line-height: 55px;
+}
+
+.shopbut{
+    width: 223px;
+    height: 72px;
+    font-size: 24px;
+    margin-top: 30px;
+    column-gap: 8px;
+    color: white;
+    font-family: rob;
+    cursor: pointer;
+    background-color: hsla(210, 25%, 16%, 1);
+}
+
+.vect{
+position: absolute;
+right: 0;
+margin-top:365.8px ;
+z-index: 4;
+}
+
+.fram{
+position: absolute;
+left: 0;
+margin-top: 614.62px;
+z-index: 4;
+}
+
+.hotcategory{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bx1{
+    display: flex;
+    column-gap: 18px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.brands{
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.newbrands{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+    
+    
+}
+
+.hotcategory{
+width: 1320px;
+height: 648px;
+margin-top: 90px;
+column-gap: 24px;
+
+}
+
+.box1{
+  line-height: 54px;  
+}
+
+
+.box2{
+    line-height: 54px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
